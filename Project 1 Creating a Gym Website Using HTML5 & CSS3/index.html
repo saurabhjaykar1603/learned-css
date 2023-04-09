@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ FITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(img/sushil-ghimire-eFx1KZhaSvo-unsplash.jpg);
+            height: fit-content;
+            background-size: cover;
+            color: white;
+            font-family: 'Anton', sans-serif;
+            /* font-family: 'Russo One', sans-serif; */
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+        }
+
+        .left img {
+            height: 103px;
+    margin: -13px 0px;
+        }
+
+        .left div {
+            text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 10px auto;
+            /* border: 2px solid rgb(16, 248, 8); */
+
+
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid rgb(255, 213, 0); */
+            position: absolute;
+            right: 34px;
+            top: 10px;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 6px 8px;
+        }
+
+      
+        .btn {
+            margin: 15px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Anton', sans-serif;
+
+
+
+        }
+        .navbar li a:hover {
+            color: rgb(209, 209, 254);
+            text-decoration: underline;
+}
+        .btn:hover {
+            background-color: rgb(171, 171, 255);
+            color: black;
+         }
+         .left div:hover{
+            color: rgb(107, 172, 246);
+         }
+ .header{
+    background-color: #0713a147;
+ }
+ .container{
+    border: 2px solid white;
+    margin: 154px 80px;
+    padding: 15px;
+    width: 30%;
+    border-radius: 15px;
+    background: #000000ad;
+
+ }
+ .form-group input{
+    text-align: center;
+    display: block;
+    width: 338px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Anton', sans-serif;
+
+ }
+ .container h1{
+    text-align: center;
+    margin: auto;
+    color: #ffd000;
+    font-size: 30px;
+    font-family: none;
+ }
+ .container button {
+    margin: auto;
+    display: block;
+    width: 33%;
+    border-radius: 10px;
+ }
+ 
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left boxx for logo -->
+        <div class="left">
+            <img src="img/dumbbell.png" alt="">
+            <div>SJ FITNESS</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn"> Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+       <h1>Join The Best Gym in Sangamner Now</h1>
+       <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder="Enter Your Name">  
+          <input type="text" placeholder="Enter Your Age">  
+          <input type="text" placeholder="Enter Your Gender">  
+          <input type="text" placeholder="Enter Your Locality">  
+
+        </div>
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+
+</body>
+
+</html>
